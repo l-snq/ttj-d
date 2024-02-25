@@ -1,7 +1,3 @@
-.image {
-  background-image: url("./assets/aesthetic.jpg");
-  background-repeat: repeat;
-}
 .main {
   display: flex;
   flex-direction: column;
