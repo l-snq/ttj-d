@@ -29,8 +29,7 @@
   text-decoration-line: underline;
 }
 .description h1 {
-	padding-bottom: 3em;
-	text-decoration-line: underline;
+	/*do something here?*/
 }
 
 .description p {
@@ -78,6 +77,11 @@
   line-height: 1.5;
   max-width: 30ch;
   text-wrap: balance;
+}
+
+.span {
+	background-color: #6efc08;
+	flex-direction: row-reverse;
 }
 
 .center {
