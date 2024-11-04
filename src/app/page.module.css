@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
 .main {
   display: flex;
   background-color: black;	
@@ -6,7 +8,8 @@
   align-items: center;
   padding: 15rem;
   min-height: 100vh;
-  color: #6efc08;
+  color: #FFCA28;
+  /*#6efc08;*/
 }
 
 
@@ -17,7 +20,8 @@
   align-items: inherit;
   font-size: 1.85rem;
   max-width: var(--max-width);
-  font-family: var(--font-mono);
+  /*font-family: var(--font-mono);*/
+  font-family: "VT323", monospace;
 }
 
 .description a {
@@ -80,7 +84,7 @@
 }
 
 .span {
-	background-color: #6efc08;
+	background-color: #FFCA28;
 	flex-direction: row-reverse;
 }
 
