@@ -8,7 +8,8 @@
   align-items: center;
   padding: 15rem;
   min-height: 100vh;
-  color: #FFCA28;
+  color: #6efc08;
+	/*#FFCA28;*/
   /*#6efc08;*/
 }
 
@@ -21,7 +22,7 @@
   font-size: 1.85rem;
   max-width: var(--max-width);
   /*font-family: var(--font-mono);*/
-  font-family: "VT323", monospace;
+  font-family: monospace;
 }
 
 .description a {
