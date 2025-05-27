@@ -1,4 +1,4 @@
-import styles from "./page.module.css";
+import styles from "./globals.css";
 
 export default function Home() {
   return (
@@ -12,10 +12,20 @@ export default function Home() {
 		  </p>
 		  <p>
 	  		Feel free to check out my latest project an app launcher for wlroots based compositors in linux as well as other projects I have worked on:
-	  		<a className={styles.project} href={'https://github.com/l-snq/tau/'}>👉 Tau 👈</a>
-	  		<a className={styles.project} href={'https://github.com/l-snq/retroPaint/'}>👉 a fork of RetroPaint to add QoL features👈</a>
-	  		<a className={styles.project} href={'https://github.com/l-snq/dioxane/'}>👉 my prototype game engine, written in rust 👈</a>
-	  		<a className={styles.project} href={'https://github.com/l-snq/servicer-web-app/'}>👉 a goods & service trader, made for DevelopEd 3.0 Hackathon 👈</a>
+				<ul>
+					<li>
+						<a className={styles.project} href={'https://github.com/l-snq/tau/'}>👉 Tau 👈</a>
+					</li>
+					<li>
+						<a className={styles.project} href={'https://github.com/l-snq/retroPaint/'}>👉 a fork of RetroPaint to add QoL features👈</a>
+					</li>
+					<li>
+						<a className={styles.project} href={'https://github.com/l-snq/dioxane/'}>👉 my prototype game engine, written in rust 👈</a>
+					</li>
+					<li>
+						<a className={styles.project} href={'https://github.com/l-snq/servicer-web-app/'}>👉 a goods & service trader, made for DevelopEd 3.0 Hackathon 👈</a>
+					</li>
+				</ul>
 	  		
 		  </p>
         </div>
